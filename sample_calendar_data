@@ -1,0 +1,27 @@
+calendar_json = {'bob@example.com': [{'StartTime': '2025-07-16T18:00:00+05:30',
+   'EndTime': '2025-07-17T09:00:00+05:30',
+   'NumAttendees': 1,
+   'Attendees': ['SELF'],
+   'Summary': 'Off Hours'},
+  {'StartTime': '2025-07-17T18:00:00+05:30',
+   'EndTime': '2025-07-18T09:00:00+05:30',
+   'NumAttendees': 1,
+   'Attendees': ['SELF'],
+   'Summary': 'Off Hours'}]}
+
+email_json = {
+    "Request_id": "6118b54f-907b-4451-8d48-dd13d76033a5",
+    "Datetime": "19-07-2025T12:34:55",
+    "Location": "IISc Bangalore",
+    "From": "userone.amd@gmail.com",
+    "Attendees": [
+        {
+            "email": "usertwo.amd@gmail.com"
+        },
+        {
+            "email": "userthree.amd@gmail.com"
+        }
+    ],
+    "Subject": "Agentic AI Project Status Update",
+    "EmailContent": "Hi team, let's meet on Thursday for 30 minutes to discuss the status of Agentic AI Project."
+}
